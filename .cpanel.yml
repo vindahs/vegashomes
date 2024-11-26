@@ -1,4 +1,6 @@
 deployment:
   tasks:
+    - export DEPLOYPATH=/home/vegasho2/public_html/
+    - /bin/cp * $DEPLOYPATH 
     - npm install
     - npm start
