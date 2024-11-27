@@ -1,5 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/vehasho2/public_html/
-    - /bin/cp -R images $DEPLOYPATH
+  -/bin/cp -R * $DEPLOYPATH
