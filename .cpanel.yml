@@ -1,3 +1,5 @@
+---
 deployment:
   tasks:
-    - npm start
+    - export DEPLOYPATH=/home/vehasho2/public_html/
+    - /bin/cp -R images $DEPLOYPATH
